@@ -11,4 +11,20 @@ Start by running two files in the preprocessing folder.<br>
 python ./preprocessing/encode_to_png_RITE.py
 python ./preprocessing/encode_to_png_HRF.py
 ```
-Then
+Then<br>
+Train connected Unets on RITE:
+```bash
+python ./maintranskconv.py
+```
+Train connected Unets on HRF:
+```bash
+python ./mainHRF.py
+```
+Train Morano et al.'s method:
+```bash
+python ./mainrr.py
+```
+Train Chen et al.'s method:
+```bash
+python ./maintwgan.py
+```
