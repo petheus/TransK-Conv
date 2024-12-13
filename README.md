@@ -11,6 +11,11 @@ Start by running two files in the preprocessing folder.<br>
 python ./preprocessing/encode_to_png_RITE.py
 python ./preprocessing/encode_to_png_HRF.py
 ```
+Before training Chen et al.'s method:
+```bash
+python ./twtool/dil.py
+python ./twtool/generate_shuffled_data.py
+```
 Then<br>
 Train connected Unets on RITE:
 ```bash
