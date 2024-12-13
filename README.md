@@ -1,2 +1,2 @@
-# TransK-Conv
-This is the Tensorflow implementation for TransK-Conv.
+# TransK-Conv: Convolution based on kernel recomposed by transformer for artery vein classification in fundus images
+This repository is for the paper "TransK-Conv: Convolution based on kernel recomposed by transformer for artery vein classification in fundus images".
