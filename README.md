@@ -5,10 +5,10 @@ This repository is for the paper "TransK-Conv: Context convolution based on kern
 #Train the RITE dataset. The dataset path is set in train/RITE/configs.py.
 cd train/RITE
 sh run.sh
-#Train the ISIC dataset. The dataset path is set in train/RITE/configs.py.
+#Train the ISIC dataset. The dataset path is set in train/ISIC/configs.py.
 cd train/ISIC
 sh run.sh
-#Train the ACDC dataset. The dataset path is set in train/RITE/configs.py.
+#Train the ACDC dataset. The dataset path is set in train/ACDC/configs.py.
 cd train/ACDC
 sh run.sh
 ```
