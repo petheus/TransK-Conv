@@ -1,6 +1,9 @@
 # TransK-Conv: Context convolution based on kernel reconstructed by transformer for medical image segmentation
+
 This repository is for the paper "TransK-Conv: Context convolution based on kernel reconstructed by transformer for medical image segmentation".
+
 ## Getting Started
+
 ```
 #Train the RITE dataset. The dataset path is set in train/RITE/configs.py.
 cd train/RITE
@@ -13,5 +16,7 @@ cd train/ACDC
 sh run.sh
 ```
 The RITE dataset can be downloaded [here](https://eye.medicine.uiowa.edu/rite-dataset).
-The ISIC2018 dataset can be downloaded [here]([https://eye.medicine.uiowa.edu/rite-dataset](https://challenge.isic-archive.com/landing/2018/)).
+
+The ISIC2018 dataset can be downloaded [here](https://challenge.isic-archive.com/landing/2018/).
+
 The slices files of ACDC we used in the experiment were the processed ones provided by the original repository of [ScribFormer](https://github.com/duweidai/Ms-RED.git).
