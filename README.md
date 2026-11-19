@@ -12,4 +12,4 @@ sh run.sh
 cd train/ACDC
 sh run.sh
 ```
-
+The slices files of ACDC we used in the experiment were the processed ones provided by the original repository of [ScribFormer](https://github.com/duweidai/Ms-RED.git).
