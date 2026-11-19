@@ -5,6 +5,7 @@ mkdir $filename
 cp *.py $filename
 mv *.log ./history/
 touch "$timnow.log"
+python3 encode_to_png_RITE.py
 for flod in $(seq 1 5)
 do
     mkdir $filename/$flod
